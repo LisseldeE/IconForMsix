@@ -2,7 +2,7 @@ class Config:
     """应用配置"""
     # 应用信息
     APP_NAME = "IconForMsix"
-    APP_VERSION = "R1.1"
+    APP_VERSION = "R1.2"
     APP_AUTHOR = "Lisselde_E"
     APP_AUTHOR_LINK = "https://lisseldee.github.io/#5"
 

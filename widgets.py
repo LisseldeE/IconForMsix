@@ -167,8 +167,6 @@ class ToastNotification(QWidget):
 
     def show_converting(self):
         """显示转换中状态"""
-        converting_text = "转换中..." if not hasattr(self, '_en_mode') else "Converting..."
-        # 检测语言
         from i18n import I18n
         converting_text = I18n.tr("msg_converting")
         self._label.setText(converting_text)
@@ -231,7 +229,9 @@ class ToastNotification(QWidget):
 
     def _clear(self):
         """清除消息，恢复默认状态"""
-        self._label.setText(self._waiting_text if hasattr(self, '_waiting_text') else "等待中...")
+        from i18n import I18n
+        waiting_text = self._waiting_text if hasattr(self, '_waiting_text') else I18n.tr("msg_waiting")
+        self._label.setText(waiting_text)
         self._label.setStyleSheet("color: #868e96; font-size: 12px;")
         self.setStyleSheet("background-color: transparent;")
         # 重置透明度
@@ -241,6 +241,8 @@ class ToastNotification(QWidget):
         """设置等待状态文本"""
         self._waiting_text = text
         self._label.setText(text)
+        self._label.setStyleSheet("color: #868e96; font-size: 12px;")
+        self.setStyleSheet("background-color: transparent;")
 
 
 class ClickableLabel(QLabel):

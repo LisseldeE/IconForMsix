@@ -56,15 +56,9 @@ IconForMsix is a simple and efficient MSIX package icon generator. Just drag and
 ## Changelog
 
 ### 2026.7.16 R1
-- Initial release
-- Generate 40 MSIX icon sizes from dragged PNG image
-- Supersampling technology reduces edge aliasing
-- Chinese/English interface with auto language detection
-- Automatic uppercase conversion for English letters
-- Background thread processing prevents UI freezing
-- Bottom notification with fixed placeholder
-- Windows taskbar icon displays correctly
-- About dialog with project info
+
+**#02**
+- Optimized some details
 
 See [Changelog](https://github.com/LisseldeE/IconForMsix/blob/main/CHANGELOG.md) for details
 
