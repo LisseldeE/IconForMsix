@@ -6,7 +6,7 @@ IconForMsix is a simple and efficient MSIX package icon generator. Just drag and
 
 ## Screenshots
 
-![Main Interface](https://lisseldee.github.io/images/webp/5-1.webp)
+![Main Interface](https://lisseldee.github.io/assets/images/webp/5-1.webp)
 
 ## Project Info
 

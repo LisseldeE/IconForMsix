@@ -6,7 +6,7 @@ IconForMsix 是一款简洁高效的MSIX包图标生成工具。只需拖拽一�
 
 ## 项目截图
 
-![主界面](https://lisseldee.github.io/images/webp/5-1.webp)
+![主界面](https://lisseldee.github.io/assets/images/webp/5-1.webp)
 
 ## 项目信息
 
